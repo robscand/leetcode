@@ -20,3 +20,8 @@ Bench:
     BenchmarkReverseListIterative-4         402748599                2.93 ns/op            0 B/op          0 allocs/op
     PASS
     ok      reverse-linked-list     3.107s
+
+Test for correct work:
+
+    PASS
+    ok      reverse-linked-list     0.265s

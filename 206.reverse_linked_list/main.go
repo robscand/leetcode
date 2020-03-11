@@ -16,7 +16,7 @@ type ListNode struct {
 	Next *ListNode
 }
 
-func Revers(l *ListNode) *ListNode {
+func ReverseOther(l *ListNode) *ListNode {
 	var prev *ListNode
 	for l != nil {
 		l, l.Next, prev = l.Next, prev, l
