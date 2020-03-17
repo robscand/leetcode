@@ -2,7 +2,7 @@ Reverse a singly linked list.
 
 URL: https://leetcode.com/problems/reverse-linked-list/
 
-Example:
+**Example:**
 
     Input: 1->2->3->4->5->NULL
     Output: 5->4->3->2->1->NULL
@@ -11,7 +11,7 @@ Follow up:
 
     A linked list can be reversed either iteratively or recursively. Could you implement both?
 
-Bench:
+Benchmark:
 
     goos: darwin
     goarch: amd64
@@ -20,8 +20,3 @@ Bench:
     BenchmarkReverseListIterative-4         402748599                2.93 ns/op            0 B/op          0 allocs/op
     PASS
     ok      reverse-linked-list     3.107s
-
-Test for correct work:
-
-    PASS
-    ok      reverse-linked-list     0.265s
